@@ -1,7 +1,7 @@
 GyroScratch
 ===========
 
-GyroScratch is an open source application that uses [x-OSC](http://www.x-io.co.uk/x-osc/) attached to a 7" record to play and scratch audio files. The demo patches provide a good starting point for connecting to [Max/MSP](http://cycling74.com/products/max/).
+GyroScratch is an open source application that uses [x-OSC](http://www.x-io.co.uk/x-osc/) attached to a 7" record to play and scratch audio files. The demo provides a good starting point for connecting x-OSC to [Max/MSP](http://cycling74.com/products/max/).
 
 <div align="center">
 <img src="https://raw.github.com/xioTechnologies/GyroScratch/master/GyroScratch%20Photo.jpg" alt="GyroScratch Wiring" style="width: 600px;"/>
@@ -9,11 +9,7 @@ GyroScratch is an open source application that uses [x-OSC](http://www.x-io.co.u
  
 &nbsp;
 
-The patch controls the playback rate of an audio file using an [IMU 6DOF Razor](https://www.sparkfun.com/products/retired/9431) with the high-pass filters on the gyroscope bypassed to prevent the output drifting to zero when spinning at a constant speeds.
-
-The the audio level is indicated on a [VU meter](http://en.wikipedia.org/wiki/VU_meter) made from 16 [1206 surface-mount yellow LEDs](http://uk.rs-online.com/web/p/visible-leds/4975122/).
-
-The gyroscope, x-OSC and battery are secured to the record with [sugru](https://sugru.com/). Demo video available on [YouTube](http://www.youtube.com/watch?v=CROb1JXgWrY#at=41), see the [original post](http://www.x-io.co.uk/gyroscratch) for more info.
+The patch controls the playback rate of an audio file using an [IMU 6DOF Razor](https://www.sparkfun.com/products/retired/9431) with the high-pass filters on the gyroscope bypassed to prevent the output drifting to zero when spinning at a constant speeds. The the audio level is indicated on a [VU meter](http://en.wikipedia.org/wiki/VU_meter) made from 16 [surface-mount LEDs](http://uk.rs-online.com/web/p/visible-leds/4975122/). The gyroscope, x-OSC and battery are secured to the record with [sugru](https://sugru.com/). Demo video available on [YouTube](http://www.youtube.com/watch?v=CROb1JXgWrY#at=41), see the [original post](http://www.x-io.co.uk/gyroscratch) for more info.
 
 =========
 
