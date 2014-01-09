@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 188.0, 44.0, 656.0, 662.0 ],
@@ -32,12 +33,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 145.0, 50.0, 31.0 ],
+					"patching_rect" : [ 68.166672, 137.0, 68.333328, 18.0 ],
 					"text" : "0.026615"
 				}
 
@@ -68,8 +68,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 689.0, 188.0, 640.0, 480.0 ],
@@ -128,8 +129,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 246.0, 179.0, 20.0 ],
-									"text" : "sprintf /output/digital/pattern %d"
+									"patching_rect" : [ 50.0, 246.0, 185.0, 20.0 ],
+									"text" : "sprintf /outputs/digital/pattern %d"
 								}
 
 							}
@@ -408,8 +409,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -548,8 +550,8 @@
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 8,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
+									"numoutlets" : 9,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 									"patching_rect" : [ 295.25, 130.0, 113.5, 20.0 ],
 									"text" : "info~ gyroscratch"
 								}
@@ -837,8 +839,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1212,8 +1215,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 607.0, 126.0, 640.0, 480.0 ],
@@ -1592,8 +1596,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 47.333332, 83.0, 110.0, 20.0 ],
-					"text" : "route /input/analog"
+					"patching_rect" : [ 47.333332, 83.0, 129.0, 20.0 ],
+					"text" : "route /inputs/analogue"
 				}
 
 			}
@@ -1780,8 +1784,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gyro.jpeg",
-				"bootpath" : "/Users/tj3mitchell/Work/Research/Projects/xOSC/Demos/GyroScratch/GyroScratch/GyroScratch Max Patch",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/tj3-mitchell/Research/Projects/x-OSC/Software/Demos/GyroScratch/GyroScratch Max Patch",
+				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
